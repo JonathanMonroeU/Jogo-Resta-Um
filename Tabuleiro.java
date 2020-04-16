@@ -65,7 +65,7 @@ public class Tabuleiro {
 		if (vPecas[posX2][posY2]==null) {
 			vPecas[posX2][posY2]=vPecas[posX1][posY1];
 			vPecas[posX2][posY2].i=posX2;
-			vPecas[posX1][posY1].j=posY2;
+			vPecas[posX2][posY2].j=posY2;
 			
 			vPecas[posX1][posY1]=null;
 		
